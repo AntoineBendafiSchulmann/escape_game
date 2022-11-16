@@ -72,7 +72,7 @@
     border-radius: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 20px;
+    padding-left: 12px;
     padding-right: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -333,5 +333,33 @@ section{
     margin-left: 25%;    
     width: 600px;
     height: 100px;
+
+}
+
+
+.charasound {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.character {
+
+    width: 130px;
+    height: 110px;
+    margin-left: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+.sound {
+
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+    margin-right: 10px;
+    cursor: pointer;
 
 }

@@ -16,22 +16,7 @@ setInterval(() => {
     temps = temps <= 0 ? 0 : temps - 1
     }, 1000)
 
-// si on est en hover sur la class carre_red , popup apparait  et disparait si on sort de la class 
 
-var clue_hover = document.getElementById('clue_hover');
-var popup_hover = document.getElementById('popup_hover');
-
-clue_hover.addEventListener('mouseover', function() {
-    console.log('mouseover');
-    popup_hover.style.display = 'block';
-}
-);
-
-clue_hover.addEventListener('mouseout', function() {
-    console.log('mouseout');
-    popup_hover.style.display = 'none';
-}
-);
 
 var clue_click = document.getElementById('clue_click');
 var popup_click = document.getElementById('popup_click');
@@ -110,3 +95,22 @@ pastille_orange[0].addEventListener('mouseout', function() {
     text_orange.style.display = 'none';
 }
 );
+
+// si on est en hover sur la class carre_red , popup apparait  et disparait si on sort de la class 
+
+var clue_hover = document.getElementById('clue_hover');
+var popup_hover = document.getElementById('popup_hover');
+
+clue_hover.addEventListener('mouseover', function() {
+    console.log('mouseover');
+    popup_hover.style.display = 'block';
+}
+);
+
+clue_hover.addEventListener('mouseout', function() {
+    console.log('mouseout');
+    popup_hover.style.display = 'none';
+}
+);
+
+
