@@ -5,36 +5,38 @@
 }
 
 
-
 /*index*/
 
 .navbar {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     padding: 0 2rem;
+
 }
 
+.logonav img{
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+
 .container {
-    display: flex;
     align-items: center;
     justify-content: center;
     padding: 0 2rem;
 
 }
 
-.start {
-    display: flex;
-    color: #fff;
-    background-color: #f5a623;
-    padding: 1rem 2rem;
-
-
+.title_image {
+    display: center;
+    margin-left: 25vw;
+    width: 700px;
 }
 
-.start a {
-    text-decoration: none;
-    color: #fff;
-}
+
 
 
 .illustration {
@@ -50,11 +52,65 @@
 
 
 
+.button{
+    background-color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button2{
+    background-color: #8CD7C9;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    display: flex;
+    margin-left: 45%;
+}
+
+.button a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.button2 a {
+    text-decoration: none;
+    color: #000;
+}
+
+.text {
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+
+
+
+
 .forme{
     
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    flex-direction: column;
     
 }
 
