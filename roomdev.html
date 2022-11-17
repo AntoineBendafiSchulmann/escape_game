@@ -6,44 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     
-    <title>Room info du jeux</title>
+    <title>index</title>
 </head>
 <body>
-    <div class="background-index">
-        <div class="indice">
-            <img id="clue_click" src="images/asset/coffre-en-bois-vide-ouvert-d-isolement-sur-le-fond-blanc-vecteur-130754797.jpg" alt="">
-        </div>
-        <div class="indice1">
-            <img id="clue_hover" src="images/asset/coffre-en-bois-vide-ouvert-d-isolement-sur-le-fond-blanc-vecteur-130754797.jpg" alt="">
-        </div>
-        <div class="compte-bourre">
-            <div id="timer"></div>
-        </div>
-    </div>
+    <div class="illudev">
+        <!-- navbar avec titre et logo -->
+        <nav class="navbar">
+            <div class="logonav">
+                <img src="images/logos/iim.png" alt="">
+            </div>
+        <button class="button"> <a href="#">découvrir l'iim</a></button>
+        </nav>
 
-    <div class="forme">
-        <!-- popup au centre de la page par défaut en display none -->
-        <div class="popup" id="popup_hover">
-            <p>test</p>    
-        </div>
+        <div class="doordev" id="characlue_click3"></div>
+        <div  class="cluedev1" id="characlue_click2"></div>
 
         <!-- popup au centre de la page par défaut en display none -->
-        <div class="popup" id="popup_click">
-            <p id="close">X</p>
-                    <!-- contient des pastilles de couleur -->
-                <div class="pastilles">
-                    <div class="pastille_red"></div>
-                    <div class="pastille_green"></div>
-                    <div class="pastille_yellow"></div>
-                    <div class="pastille_orange"></div>
+        <div class="popup" id="chara_click">
+            
+
+            <h1 class="charapopup_title">Bloup est là pour t’aider</h1>
+            <p class="charapopup_txt">Cras porttitor tellus libero, non sagittis libero facilisis non. Etiam id rutrum libero, sit amet eleifend nulla. Nam imperdiet nulla sed dignissim pellentesque. Donec sed quam nec elit dignissim varius. Pellentesque vitae ante id purus hendrerit vestibulum non eu nisl. Vestibulum euismod, massa et malesuada laoreet, libero nisi porttitor justo, vitae vulputate felis ante ut lacus. Mauris quis bibendum massa. Nullam nec rutrum neque.</p>
+            <button id="close" class="button3">merci</button>
+                
+        </div>
+
+        <!-- popup indice -->
+        <div class="popup" id="chara_click2">
+
+            <h1 class="charapopup_title">Indice 1</h1>
+            <p class="charapopup_txt">Cras porttitor tellus libero, non sagittis libero facilisis non. Etiam id rutrum libero, sit amet eleifend nulla. Nam imperdiet nulla sed dignissim pellentesque. Donec sed quam nec elit dignissim varius. Pellentesque vitae ante id purus hendrerit vestibulum non eu nisl. Vestibulum euismod, massa et malesuada laoreet, libero nisi porttitor justo, vitae vulputate felis ante ut lacus. Mauris quis bibendum massa. Nullam nec rutrum neque.</p>
+            <button id="close2" class="button3">fermer</button>        
+        </div>
+
+        <!-- popup code -->
+        <div class="popup" id="chara_click3">
+
+        <h1 class="charapopup_title">Entrez le code pour ouvrir la porte</h1>
+        <input class="codedevinput" type="text" id="codedev" name="code"> 
+        <button id="close3" class="button3">fermer</button>        
+        </div>
+        
+        <div class="footer_hud2">
+
+            <div class="timer">
+                <div id="timer"></div>
+            </div>
+
+
+            <div class="charasound">
+
+                <div id="characlue_click">
+                    <img class="character" src="images/asset/bloup.png" alt="">
                 </div>
-    
-                <!-- héxadécimal de la couleur -->   
 
-                <div class="hexa" id="hexa_hover_red">#FF0000</div>
-                <div class="hexa" id="hexa_hover_green">#00FF00</div>
-                <div class="hexa" id="hexa_hover_yellow">#FFFF00</div>
-                <div class="hexa" id="hexa_hover_orange">#FFA500</div>
+                <div id="sound-click">
+                    <img  class="sound" src="images/asset/speaker.png" alt="">
+                </div>
+            
+            </div>
+
+            
+        </div>
+
+
+
         </div>
             
     </div>

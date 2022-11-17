@@ -27,13 +27,63 @@ clue_click.addEventListener('click', function() {
 }
 );
 
-//après avoir cliqué sur la croix , le popup disparai
+//après avoir cliqué sur la croix , le popup disparait
 var close = document.getElementById('close');
 close.addEventListener('click', function() {
     console.log('click');
     popup_click.style.display = 'none';
 }
 );
+
+
+
+
+var clue_click2 = document.getElementById('characlue_click2');
+var popup_click2 = document.getElementById('chara_click2');
+
+clue_click2.addEventListener('click', function() {
+    console.log('click');
+    popup_click2.style.display = 'block';
+}
+);
+
+//après avoir cliqué sur la croix , le popup disparait
+var close2 = document.getElementById('close2');
+close2.addEventListener('click', function() {
+    console.log('click');
+    popup_click2.style.display = 'none';
+}
+);
+
+
+
+
+var clue_click3 = document.getElementById('characlue_click3');
+var popup_click3 = document.getElementById('chara_click3');
+
+clue_click3.addEventListener('click', function() {
+    console.log('click');
+    popup_click3.style.display = 'block';
+}
+);
+
+//après avoir cliqué sur la croix , le popup disparait
+var close3 = document.getElementById('close3');
+close3.addEventListener('click', function() {
+    console.log('click');
+    popup_click3.style.display = 'none';
+}
+);
+
+
+// si dans l'input codedev on écrit les caractères suivants "xwzh" on redirige vers la page room3d.html
+var input = document.getElementById('codedev');
+
+input.addEventListener('keyup', function() {
+    if (input.value == "xwzh") {
+        window.location.href = "room3d.html";
+    }
+});
 
 
 //lorsqu'on passe la souris une pastille , le texte apparait avec l'héxadécimal de la couleur
@@ -113,10 +163,3 @@ clue_hover.addEventListener('mouseout', function() {
 }
 );
 
-
-// si on arrive sur outdoors.html, après 5 seconde on est redirigé vers explication1.html
-if (document.URL.includes('outdoors.html')) {
-    setTimeout(function() {
-        window.location.href = 'explication1.html';
-    }, 5000);
-}

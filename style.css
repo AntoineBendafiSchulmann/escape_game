@@ -50,6 +50,17 @@
     flex-direction: column;
 }
 
+.illudev {
+    background-image: url(images/background/dev/salle_dev.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 .button{
@@ -403,4 +414,49 @@ section{
     margin-left: 60px;
     margin-right: 60px;
     text-align: center;
+}
+
+.codedevinput {
+
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 600px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    background-color: #192929;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid white;
+    outline: none;
+
+}
+
+/*elements cliquables room dev*/
+
+.doordev {
+    position: absolute;
+    left: 36.7%;
+    top: 36.5%;
+    transform: translate(-50%, -50%);
+    width: 170px;
+    height: 43px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.cluedev1 {
+    position: absolute;
+    left: 13%;
+    top: 62%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 100px;
+    background-color: transparent;
+    cursor: pointer;
 }
