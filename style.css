@@ -81,6 +81,21 @@
     margin-left: 45%;
 }
 
+.button3{
+    background-color: #8CD7C9;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    display: flex;
+    margin-left: 45%;
+}
+
 .button a {
     text-decoration: none;
     color: #000;
@@ -159,13 +174,14 @@
 
 
 .popup {
-    background-color: white;
-    border-radius: 10px;
+    background-color: #192929;
+    border: 1px solid white;
+    color: white;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 300px;
+    width: 700px;
     height: 300px;
     display: none;
 
@@ -225,14 +241,6 @@
     border: 2px solid black;
 }
 
-#close {
-    color: red;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 20px;
-    cursor: pointer;
-}
 
 .hexa {
     width: 100px;
@@ -307,6 +315,21 @@ section{
     right: 0;
     margin: 0 auto;
 }
+
+.footer_hud2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
 .timer {
     display: flex;
     justify-content: center;
@@ -329,7 +352,6 @@ section{
 
     background-color: #192929;
     border: 1px solid white;
-    border-radius: 10px;
     margin-left: 25%;    
     width: 600px;
     height: 100px;
@@ -346,20 +368,39 @@ section{
 
 .character {
 
-    width: 130px;
+    width: 100px;
     height: 110px;
     margin-left: 40px;
     margin-right: 20px;
+    margin-bottom: 5px;
     cursor: pointer;
 
 }
 
 .sound {
 
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 80px;
     margin-left: 40px;
     margin-right: 10px;
+    margin-top: 10px;
     cursor: pointer;
 
+}
+
+
+.charapopup_title {
+    
+    /* titre centré */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+.charapopup_txt {
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
 }

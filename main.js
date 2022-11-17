@@ -18,8 +18,8 @@ setInterval(() => {
 
 
 
-var clue_click = document.getElementById('clue_click');
-var popup_click = document.getElementById('popup_click');
+var clue_click = document.getElementById('characlue_click');
+var popup_click = document.getElementById('chara_click');
 
 clue_click.addEventListener('click', function() {
     console.log('click');
@@ -114,3 +114,9 @@ clue_hover.addEventListener('mouseout', function() {
 );
 
 
+// si on arrive sur outdoors.html, après 5 seconde on est redirigé vers explication1.html
+if (document.URL.includes('outdoors.html')) {
+    setTimeout(function() {
+        window.location.href = 'explication1.html';
+    }, 5000);
+}
